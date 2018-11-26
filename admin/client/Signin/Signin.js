@@ -107,6 +107,7 @@ var SigninView = React.createClass({
 							logo={this.props.logo}
 							brand={this.props.brand}
 						/>
+
 						{this.props.user ? (
 							<UserInfo
 								adminPath={this.props.from ? this.props.from : Keystone.adminPath}
