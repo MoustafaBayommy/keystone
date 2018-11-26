@@ -116,18 +116,18 @@ var SigninView = React.createClass({
 							/>
 						) : (
 							<LoginForm
-								email={this.state.email}
-								handleInputChange={this.handleInputChange}
-								handleSubmit={this.handleSubmit}
-								isAnimating={this.state.isAnimating}
-								password={this.state.password}
-							/>
-						)}
+									email={this.state.email}
+									handleInputChange={this.handleInputChange}
+									handleSubmit={this.handleSubmit}
+									isAnimating={this.state.isAnimating}
+									password={this.state.password}
+								/>
+							)}
 					</div>
 				</div>
 				<div className="auth-footer">
 					<span>Powered by </span>
-					<a href="http://keystonejs.com" target="_blank" title="The Node.js CMS and web application platform (new window)">KeystoneJS</a>
+					<a href="https://www.bianaat.com" target="_blank" title="The Node.js CMS and web application platform (new window)">Bianaat Keystone</a>
 				</div>
 			</div>
 		);
